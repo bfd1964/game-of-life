@@ -175,6 +175,18 @@
             </extension>
         </extensions>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>GOL Nexus Repo</name>
+            <url>http://sonatype.nexus:9081/repository/GOL_Release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <name>GOL Snapshots</name>
+            <url>http://sonatype.nexus:9081/repository/GOL_SnapShot/</url>
+       </snapshotRepository>
+    </distributionManagement>
     <dependencyManagement>
         <dependencies>
             <dependency>
